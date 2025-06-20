@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.btn {
+  @apply rounded-md px-4 py-2 text-sm font-medium text-gray-700 hover:underline hover:cursor-pointer transition-all duration-200;
+}
+
+.panel {
+  @apply bg-gray-100 h-full;
+}
+
+.appIcon {
+  @apply rounded-lg bg-white mx-1;
+}
+
+.input {
+  @apply rounded-xl bg-white px-2 py-2 border border-gray-300;
+}
+
+  .card {
+    @apply p-3 rounded-md bg-white shadow-md h-full;
+  }
