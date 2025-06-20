@@ -28,9 +28,6 @@
           >
           {{ category }}
           </button>
-          <p>
-          {{activeTab}}
-          </p>
           <div class="container mx-auto p-4">
             <div class="grid grid-cols-4 gap-5">
               <div v-for="p in products">
@@ -56,6 +53,9 @@ const setActiveTab = (tab) => {
   activeTab.value = tab
 }
 
+if (activeTab.value == "Home") {
+
+}
 const { data: products } = await useFetch('https://fakestoreapi.com/products')
 
 </script>
